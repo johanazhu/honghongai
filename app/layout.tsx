@@ -44,7 +44,9 @@ export default function RootLayout({
       <meta name="twitter:description" content="哄哄模拟器开源版" />
       <meta name="twitter:image" content="https://hong.azhubaby.com/og-image.png" />
       <meta name="twitter:creator" content="@JOJOhanbo" />
-
+      <body className={inter.className}>
+        {children}
+      </body>
       {process.env.NODE_ENV === "development" ? (
         <></>
       ) : (
@@ -53,9 +55,6 @@ export default function RootLayout({
           <UmamiAnalytics />
         </>
       )}
-      <body className={inter.className}>
-        {children}
-      </body>
     </html>
   )
 }

@@ -1,4 +1,4 @@
-## HongHongChat
+## HongHongAI
 
 这是模仿DK的 [哄哄模拟器](https://hong.greatdk.com/) 做的开源免费版哄哄模拟器，大模型用的是 google 的 gemini，主打一个免费（每分钟60次调用），目前 gemini 还没有训练模型和微调（Fine-tuning），所以我用最原始的 prompt 来实现，主要参考 [宝玉老师](https://weibo.com/1727858283/ND9pOzB0K?refer_flag=1001030103_) 这版
 

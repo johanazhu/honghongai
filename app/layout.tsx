@@ -44,6 +44,7 @@ export default function RootLayout({
       <meta name="twitter:description" content="哄哄模拟器开源版" />
       <meta name="twitter:image" content="https://hong.azhubaby.com/og-image.png" />
       <meta name="twitter:creator" content="@JOJOhanbo" />
+      <meta name="google-site-verification" content={process.env.GOOGLE_CONSOLE} />
       <body className={inter.className}>
         {children}
       </body>

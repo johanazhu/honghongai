@@ -28,7 +28,7 @@ export default function Chat() {
     onResponse: (response) => {
       console.log('response', response)
       if (response.status === 500) {
-        window.alert("You have reached your request limit for the day.");
+        window.alert("您已达到今天的请求限制。");
         return;
       }
     },

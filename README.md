@@ -13,6 +13,19 @@ HongHongChat is built on the following stack:
 - [Vercel](https://vercel.com) – deployments
 - [TailwindCSS](https://tailwindcss.com/) – styles
 
+
+
+## Environment Variables
+
+You can control the website through environment variables.
+
+| Name             | Description                                                  | Required |
+| ---------------- | ------------------------------------------------------------ | -------- |
+| `GEMINI_API_KEY` | Your API Key for GEMINI. You can get it from [here](https://makersuite.google.com/app/apikey). | **✔**    |
+| `API_BASE_URL`   | Custom base url for GEMINI API. Click [here](https://github.com/babaohuang/GeminiProChat?tab=readme-ov-file#solution-for-user-location-is-not-supported-for-the-api-use) to see when to use this. | ❌        |
+
+
+
 ## Contributing
 
 Here's how you can contribute:
@@ -24,10 +37,9 @@ Here's how you can contribute:
 
 If this repo is helpful to you, buy me a coffee,thank you very much!😄
 
-
+<img src="https://s2.loli.net/2022/10/09/31kvp8HRJuoBCfc.jpg" height="300px" width="300px" />
 
 ## License
 
 Licensed under the [MIT license](https://github.com/johanazhu/honghongai/blob/main/LICENSE.md).
-
 

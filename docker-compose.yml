@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  honghongai:
+    container_name: honghongai
+    image: xxxxx/honghongai:xxxxxxx
+    # build:
+    #   context: .
+    ports:
+      - 3000:3000
+    environment:
+      - GEMINI_API_KEY=xxxxxx
+      - API_BASE_URL=https://generativelanguage.googleapis.com

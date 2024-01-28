@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/blog/:subdir*", "destination": "https://hong-blog-beta.vercel.app/:subdir*" },
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }

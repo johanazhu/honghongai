@@ -3,17 +3,15 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-  redirects: async () => {
+  async rewrites() {
     return [
       {
-        source: "/github",
-        destination: "https://github.com/steven-tey/chathn",
-        permanent: true,
+        source: '/blog/:subdir*',
+        destination: 'https://hong-blog-beta.vercel.app/:subdir*',
       },
       {
-        source: "/deploy",
-        destination: "https://vercel.com/templates/next.js/chathn",
-        permanent: true,
+        source: '/(.*)',
+        destination: '/',
       },
     ];
   },

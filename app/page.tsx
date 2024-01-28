@@ -9,7 +9,8 @@ import {
   LoadingCircle,
   SendIcon,
   UserIcon,
-} from "./icons";
+} from "@/components/Icons";
+import Footer from '@/components/Footer'
 import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
@@ -174,25 +175,7 @@ export default function Chat() {
             )}
           </button>
         </form>
-        <p className="text-center text-xs text-gray-400">
-          <a
-            href="https://azhubaby.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
-          >
-            开发者
-          </a>
-          {" "}| {" "}
-          <a
-            href="https://github.com/johanazhu/honghongai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
-          >
-            Github
-          </a>{" "}
-        </p>
+        <Footer />
       </div>
     </main>
   );

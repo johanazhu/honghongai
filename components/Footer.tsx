@@ -6,8 +6,7 @@ import {
 
 export default function Footer() {
     return (
-
-        <p className="text-center text-xs text-gray-400">
+        <div className="text-center text-xs text-gray-400">
             <Link
                 target="_blank"
                 href="https://azhubaby.com"
@@ -31,7 +30,9 @@ export default function Footer() {
                 className="text-slate-600">
                 terms
             </Link>
-            <p className="mt-4 text-sm text-slate-500 sm:mt-2">Copyright © hong.azhubaby.com rights reserved.</p>
-        </p>
+            <p className="mt-4 text-sm text-slate-500 sm:mt-2">
+                Copyright © hong.azhubaby.com rights reserved.
+            </p>
+        </div>
     );
 }
